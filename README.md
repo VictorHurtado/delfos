@@ -209,7 +209,11 @@ delfos/
 │   ├── main.js              # Arranca Flask local + crea ventana nativa
 │   └── package.json         # Scripts y dependencias de Electron
 ├── docs/                    # Fuente de verdad (visión + arquitectura)
-├── .cursor/                 # Reglas y skills para trabajar con agentes
+├── AGENTS.md                # Instrucciones Cloud Agents (environment + comandos)
+├── .cursor/                 # Reglas, skills y environment.json (Cloud Agents)
+│   ├── environment.json     # Dockerfile + install para agentes
+│   ├── Dockerfile           # Node 22 + uv + deps Electron/AppImage
+│   └── install.sh           # Sync idempotente frontend/desktop/backend
 ├── agentic-framework/       # Método de trabajo agéntico (portable)
 ├── legacy/                  # Plantillas Jinja originales (referencia)
 └── docker-compose.yml

@@ -1,0 +1,8 @@
+{
+  "name": "delfos-desktop-linux",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "install": "bash .cursor/install.sh"
+}

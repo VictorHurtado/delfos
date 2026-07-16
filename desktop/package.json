@@ -2,6 +2,7 @@
   "name": "delfos-desktop",
   "version": "0.1.0",
   "private": true,
+  "author": "Delfos",
   "description": "Desktop shell (Electron) para Delfos",
   "main": "main.js",
   "scripts": {
@@ -38,7 +39,9 @@
       "target": [
         "AppImage"
       ],
-      "category": "Office"
+      "category": "Office",
+      "desktopName": "delfos.desktop",
+      "executableName": "Delfos"
     },
     "mac": {
       "target": [
